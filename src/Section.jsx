@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
 import SideMenu from './SideMenu';
 import MainMenu from './MainMenu';
+import { Route } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 
@@ -22,10 +23,12 @@ function Section() {
 
 
     return (
-        <StyledDiv>
-            <SideMenu></SideMenu>
-            <MainMenu></MainMenu>
-        </StyledDiv>
+       
+            <StyledDiv>
+                <SideMenu></SideMenu>
+                <MainMenu></MainMenu>
+            </StyledDiv>
+        
     )
 }
 

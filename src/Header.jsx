@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Route } from 'react-router-dom/cjs/react-router-dom.min';
 import styled from 'styled-components';
 
 const StyledReset = styled.div`
@@ -38,7 +39,6 @@ const Header = () => {
                 <Nav>
                     <a href="#" style={{ fontWeight: 'bold', marginRight: '1rem', textDecoration: "none", color: "#e1dfd7" }}>Ana Sayfa</a>
                     <a href="https://www.marquise.com.tr/bize-ulaşın" style={{ marginRight: '1rem', textDecoration: "none", color: "#e1dfd7" }}>Bize Ulaşın</a>
-                    <a href="#" style={{ marginRight: '1rem', textDecoration: "none", color: "#e1dfd7" }}>Menü</a>
                 </Nav>
             </HeaderDiv>
         </StyledReset>
