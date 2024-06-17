@@ -1,5 +1,14 @@
+import MenuLink from "../components/MenuLink";
+
+
+
+
 function Home() {
-    return (<></>);
+    return (
+        <>
+            <MenuLink />
+        </>
+    );
 }
 
 export default Home;

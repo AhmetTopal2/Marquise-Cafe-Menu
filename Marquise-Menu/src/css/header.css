@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: lightcyan;
+}
+
+.header-logo {
+    width: 100px;
+    height: 100px;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.nav-item:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: lightpink    ;
+}

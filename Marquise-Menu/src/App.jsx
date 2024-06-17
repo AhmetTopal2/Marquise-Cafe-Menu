@@ -1,23 +1,27 @@
 
-import { Switch } from 'react-router-dom/cjs/react-router-dom.min'
+import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min'
 import './App.css'
 import Home from './pages/Home'
 import Menu from './pages/Menu'
 import Contact from './pages/Contact'
+import Header from './components/Header'
 
 function App() {
   return (
-    <Switch>
-      <Route path='/'>
-        <Home />
-      </Route>
-      <Route path='/menu'>
-        <Menu />
-      </Route>
-      <Route path='/contact'>
-        <Contact />
-      </Route>
-    </Switch>
+    <>
+      <Header></Header>
+      <Switch>
+        <Route path='/' exact>
+          <Home />
+        </Route>
+        <Route path='/menu'>
+          <Menu />
+        </Route>
+        <Route path='/contact'>
+          <Contact />
+        </Route>
+      </Switch>
+    </>
   )
 }
 
