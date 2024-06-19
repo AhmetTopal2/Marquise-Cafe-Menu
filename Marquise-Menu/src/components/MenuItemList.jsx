@@ -1,7 +1,9 @@
+import MenuItems from "./MenuItems";
+
 function MenuItemList() {
     return (
         <>
-            
+            <MenuItems />
         </>
     );
 }
