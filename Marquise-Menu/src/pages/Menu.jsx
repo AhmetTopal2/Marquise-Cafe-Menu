@@ -1,5 +1,9 @@
 function Menu() {
-    return (<></>);
+    return (
+        <>
+            
+        </>
+    );
 }
 
 export default Menu;
