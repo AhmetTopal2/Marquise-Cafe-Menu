@@ -1,6 +1,6 @@
 
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min'
-import './App.css'
+import './css/home.css'
 import Home from './pages/Home'
 import Menu from './pages/Menu'
 import Contact from './pages/Contact'
