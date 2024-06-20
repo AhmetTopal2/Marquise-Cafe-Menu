@@ -5,12 +5,13 @@ import Home from './pages/Home'
 import Menu from './pages/Menu'
 import Contact from './pages/Contact'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 
 function App() {
   return (
     <>
-      <Header></Header>
+      <Header />
       <Switch>
         <Route path='/' exact>
           <Home />
@@ -22,6 +23,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
+      <Footer />
     </>
   )
 }

@@ -1,6 +1,7 @@
 import { Route, Switch, useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import Categories from '../components/Categories';
 import { Button } from 'reactstrap';
+import Patisserie from '../components/Patisserie';
 
 
 function Menu() {
@@ -15,20 +16,28 @@ function Menu() {
                     <Categories />
                 </Route>
                 <Route path='/menu/patisserie'>
-                    <h1>Patisserie</h1>
-                    <Button onClick={clickHandler}>Geri</Button>
+                    <Patisserie />
+                    <div className='back-btn-div'>
+                        <Button onClick={clickHandler} className='back-btn'>Geri</Button>
+                    </div>
                 </Route>
                 <Route path='/menu/kahvaltı'>
                     <h1>Kahvalti</h1>
-                    <Button onClick={clickHandler}>Geri</Button>
+                    <div className='back-btn-div'>
+                        <Button onClick={clickHandler} className='back-btn'>Geri</Button>
+                    </div>
                 </Route>
                 <Route path='/menu/sicakicecek'>
                     <h1>Sicak Icecek</h1>
-                    <Button onClick={clickHandler}>Geri</Button>
+                    <div className='back-btn-div'>
+                        <Button onClick={clickHandler} className='back-btn'>Geri</Button>
+                    </div>
                 </Route>
                 <Route path='/menu/sogukicecek'>
                     <h1>Soguk Icecek</h1>
-                    <Button onClick={clickHandler}>Geri</Button>
+                    <div className='back-btn-div'>
+                        <Button onClick={clickHandler} className='back-btn'>Geri</Button>
+                    </div>
                 </Route>
 
             </Switch>

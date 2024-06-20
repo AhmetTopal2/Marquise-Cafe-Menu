@@ -92,36 +92,47 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* Daha iyi yerleşim için flex-wrap ekledim */
 }
 
+/* Card Stili */
 .card {
-    margin: 3rem;
+    flex: 1;
+    margin: 2rem;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .card-content {
     padding: 1.5rem;
-    text-align: center;
-
 }
 
 .card h3 {
     background-color: white;
     color: black;
     text-decoration: none;
+    margin: 0;
+}
+
+.back-btn {
+    margin: 4rem;
+    width: 20rem;
+    height: 3rem;
+}
+
+.back-btn-div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 74, 70);
+    ;
 }
 
 
-
-.card h3:hover {
-    background-color: black;
-    color: white;
-    padding: 0.4rem;
-}
 
 /* Breakpoints: Mobil Cihazlar için Düzenlemeler */
 @media (max-width: 768px) {
@@ -163,6 +174,15 @@ body {
         margin: 2rem 0;
         width: 90%;
     }
+
+    .card {
+        width: 90%;
+        margin: 1rem 0;
+    }
+
+    .card-div {
+        margin-left: 4rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -200,5 +220,10 @@ body {
     .menu-item {
         margin: 1rem 0;
         width: 90%;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0.5rem 0;
     }
 }
