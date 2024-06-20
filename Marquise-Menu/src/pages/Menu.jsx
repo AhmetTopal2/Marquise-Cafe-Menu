@@ -2,7 +2,7 @@ import { Route, Switch, useHistory } from 'react-router-dom/cjs/react-router-dom
 import Categories from '../components/Categories';
 import { Button } from 'reactstrap';
 import Patisserie from '../components/Patisserie';
-
+import Kahvalti from '../components/Kahvalti'
 
 function Menu() {
     const history = useHistory();
@@ -22,7 +22,7 @@ function Menu() {
                     </div>
                 </Route>
                 <Route path='/menu/kahvaltı'>
-                    <h1>Kahvalti</h1>
+                    <Kahvalti />
                     <div className='back-btn-div'>
                         <Button onClick={clickHandler} className='back-btn'>Geri</Button>
                     </div>

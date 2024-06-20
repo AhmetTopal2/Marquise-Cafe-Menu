@@ -4,7 +4,7 @@ function Header() {
     return (
         <header className="header">
 
-            <img src="https://lh4.googleusercontent.com/OYD6GZh0bL7ZL1ZfVc1jU84QPnQpXC8ctQOAIItZ07g-iGGQC3889gGa3dx7ahKhbyyYLrjGrbRSR68J0QR3iEs=w16383" alt="" className="header-logo" />
+            <img src="https://picsum.photos/1000" alt="" className="header-logo" />
 
             <div className="nav-links">
                 <NavLink to='/' className='nav-item'>Ana Sayfa</NavLink>

@@ -57,10 +57,7 @@ body {
     background-color: rgb(42, 74, 70);
 }
 
-.menu-button:hover {
-    background-color: rgba(42, 74, 70, 1);
-    color: white;
-}
+
 
 /* Main Image Stili */
 .main-image {
@@ -123,13 +120,15 @@ body {
     margin: 4rem;
     width: 20rem;
     height: 3rem;
+    border-radius: 20px;
+    background-color: chocolate;
 }
 
 .back-btn-div {
     display: flex;
     justify-content: center;
     background-color: rgb(42, 74, 70);
-    ;
+
 }
 
 
